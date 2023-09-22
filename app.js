@@ -1,6 +1,9 @@
-const name = require('./4-name')
-const funct = require('./5-ultils')
-console.log(funct)
+const person = require('./4-name')
 
+const sayHi = require('./5-ultils')
+//console.log(funct)
+const data = require('./6-alternative')
 
-funct.sayHi(name.person1)
+console.log(data);
+
+sayHi(person.person1)
