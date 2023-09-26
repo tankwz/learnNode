@@ -1,5 +1,4 @@
 const { readFile, writeFile } = require('fs')
-
 readFile('./sub-fol/text.txt', 'utf-8', (e, r) => {
   if (e) {
     console.log(e)
@@ -21,5 +20,4 @@ readFile('./sub-fol/text.txt', 'utf-8', (e, r) => {
     })
 
   })
-
 })
