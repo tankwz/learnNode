@@ -1,10 +1,9 @@
-const person = require('./4-name')
+const person = require('./4-name');
 
-const sayHi = require('./5-ultils')
+const sayHi = require('./5-ultils');
 //console.log(funct)
-const data = require('./6-alternative')
+const data = require('./6-alternative');
 
-require('./7-mind-grenade')
+require('./7-mind-grenade');
 //console.log(data);
 //sayHi(person.person1)
-
