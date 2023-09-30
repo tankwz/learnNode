@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
     "install": "^0.13.0",
     "nodemon": "^3.0.1",
     "npm": "^10.1.0"
@@ -7,9 +8,8 @@
   "name": "nodelearning",
   "version": "1.0.0",
   "main": "10-fs-sync.js",
-  "devDependencies": {},
   "scripts": {
-    "start":"nodemon app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
