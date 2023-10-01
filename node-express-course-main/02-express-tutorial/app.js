@@ -6,6 +6,8 @@ const authorize = require('./authorize');
 //app.use('/', logger, authorize);
 app.use('/api', [logger, authorize]);
 
+app.use(express.static('./public'));
+
 app.get('/', (req, res) => {
   res.send('Home');
 });
